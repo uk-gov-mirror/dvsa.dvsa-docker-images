@@ -1,5 +1,50 @@
 # Changelog
 
+## [0.1.0](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/compare/v0.8.0...v0.1.0) (2026-09-07)
+
+
+### Features
+
+* add logstash image ([#53](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/53)) ([dd63dc3](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/dd63dc3ea57d134247a46ec2982894f36f425a3d))
+* add PHP 8.2/8.3 base images ([#22](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/22)) ([3f768ed](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/3f768edaa7e4786b625bca39a7a750d4baa92fde))
+* add php 8.4 base images (fpm-nginx, cli) ([#81](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/81)) ([c2ba5b7](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/c2ba5b7da2f49268621d9d7503f9961a7da2444a))
+* add php 8.5 base images (fpm-nginx, cli) ([#84](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/84)) ([807d11e](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/807d11e90903f899ac148b2863203fb3efa34564))
+* add productionised base PHP-CLI 8.0 image ([#11](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/11)) ([d091336](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/d091336842280df96b8551c01a8d2d58392b1af2))
+* Always use latest packages ([#71](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/71)) ([8155766](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/815576684fcb86768a235dececeffc6f3c2b9849))
+* BL-17333 - Dockerfile and resources for Apache PHP 8.2, base image only ([#42](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/42)) ([8545e46](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/8545e467e0da5e22bc31f3fc4408332c18f0c3dc))
+* bump Alpine version in PHP 8.2 & PHP 8.3 images ([#38](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/38)) ([c178d2a](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/c178d2a973857618f0b493ac235ef447873bbc05))
+* Create basic java amazoncorretto 8 image ([#59](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/59)) ([714d928](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/714d928c5787deec952ce0f145ed940fe553395c))
+* create productionised base dockerfile ([#2](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/2)) ([d94000b](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/d94000b44af842665f3492c089b742dffc99f60f))
+* create repo action ([#56](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/56)) ([ac20cb9](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/ac20cb91b9045d81837ee24bec8d2a36512ab651))
+* java 25 image ([#73](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/73)) ([6804df6](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/6804df6dd97eaa0d5ffad8acbcf7f0bf458e7364))
+* mirror images to GHCR ([#14](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/14)) ([258d227](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/258d227a3a7a1d0a37cec1863323c2e52696894a))
+* optimise Dockerfile and tweak logging levels ([#25](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/25)) ([928bc41](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/928bc41f256bcf5b7b544406e0ef6b5cf609f366))
+* productionised base PHP-FPM 8.0 image ([#8](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/8)) ([640fcc4](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/640fcc441723ec632ba4bd5b664b10c7d3d56262))
+* productionised base PHP-FPM 8.2 image ([#10](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/10)) ([69e5b74](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/69e5b747c8bb2c8720b6609b7a048287045e1947))
+* refactor supervisord config to be extensible ([#27](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/27)) ([5f65792](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/5f657928996eae0e5e433b1b18213c889174eaa3))
+* remove PHP 7.4 & 8.0 ([#44](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/44)) ([35c5d95](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/35c5d9544d5f64fb0803632014510ef42fa1515a))
+* Upgrade actions ([#68](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/68)) ([d36e98f](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/d36e98fb4d9b55d5ef7d73e41cab11ed41feb28f))
+
+
+### Bug Fixes
+
+* fix CD release workflow ([#17](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/17)) ([3b2333d](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/3b2333d26373eb6aabbf66dc9c65419d7fa23e06))
+* fix the CD workflow syntax ([#20](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/20)) ([8b6615c](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/8b6615cb48bd87f98f8b003fc7f6cc086a3c4a5f))
+* Follow least privilege principle for workflow permissions ([#70](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/70)) ([5c1ca5c](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/5c1ca5cfbe3cbb32614b2728e115c51ef04306bd))
+* in the sign artifact stage removing url and checksum fields entirely ([#65](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/65)) ([3131238](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/3131238a868c4b67531fee2089e90b8b7725d198))
+* issue with CD logic to prevent on demand builds ([#69](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/69)) ([e0bf4e7](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/e0bf4e7f596d11f651c1770ccdb9f6153194f06d))
+* remove duplicate FPM config ([#52](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/52)) ([cbbe46b](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/cbbe46b2a5bb2a388bf293aa1c1c4cfa3ee031a9))
+* Remove PHP CLI 8.0 from workflows ([#51](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/51)) ([c6dff15](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/c6dff15220fa77b4c10855c983fded1ab2adf433))
+* removing signing step as this isn't used ([#66](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/66)) ([407be1e](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/407be1e18115c22cef88e399f8dfba06e18f5c35))
+* resolve security scan failures and build issues ([#67](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/67)) ([2bd6492](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/2bd6492b4fc35f8c5ae574de5f46b261f10da0e7))
+* set `decorate_workers_output` to `no` ([#24](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/24)) ([a052aa3](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/a052aa311ac4dd323587b46c5ad403fb4a23c5a4))
+* update trivy action ([#54](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/54)) ([c8552a9](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/c8552a9ed24a36812223a5ac8c59032b7dfeed2d))
+
+
+### Miscellaneous Chores
+
+* release 0.1.0 ([#16](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/issues/16)) ([a676210](https://github.com/uk-gov-mirror/dvsa.dvsa-docker-images/commit/a67621057f15b572c2f9b30639555f9f31d5a0a9))
+
 ## [0.8.0](https://github.com/dvsa/dvsa-docker-images/compare/v0.7.0...v0.8.0) (2026-03-16)
 
 
